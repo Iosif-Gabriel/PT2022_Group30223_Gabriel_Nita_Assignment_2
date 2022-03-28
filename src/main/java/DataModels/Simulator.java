@@ -60,7 +60,7 @@ public class Simulator implements Runnable {
     public void run() {
         FileWriter f = null;
         try {
-            f = new FileWriter("outputTest2.txt");
+            f = new FileWriter("Test2.txt");
         } catch (IOException e) {
             e.printStackTrace();
         }
